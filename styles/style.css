@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+:root {
+	--color-1: #f7f7f2;
+	--color-2: #e4e6c3;
+	--color-3: #899878;
+	--color-4: #222725;
+	--color-5: #121113;
+}
+
+body {
+	height: fit-content;
+	min-width: 650px;
+	background-color: var(--color-2);
+}
+
+main {
+	font-family: Arial;
+	min-height: 100vh;
+	font-size: 22px;
+	margin: 0;
+	padding: 0;
+	background-color: var(--color-2);
+	display: flex;
+	justify-content: center;
+}
+
+.titulo {
+	width: 200px;
+}
+
+.autor {
+	width: 200px;
+}
+
+.descricao {
+	width: 400px;
+	;
+}
+
+.tiragem {
+	width: 100px;
+}
+
+.headerNav {
+	background-color: var(--color-3);
+	color: var(--color-1);
+	font-size: 30px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+	min-width: 500px;
+}
+
+.headerNav ul {
+	display: flex;
+	padding: 20px;
+	list-style: none;
+}
+
+.headerNav li {
+	display: flex;
+	justify-content: space-around;
+	margin: 15px;
+	margin-left: 100px;
+	cursor: pointer;
+}
+
+.headerNav li:hover {
+	font-weight: bold;
+}
+
+.headerNav img {
+	margin: 15px;
+	margin-left: 100px;
+}
+
+.headerNav img:hover {
+	cursor: pointer;
+}
+
+.homeContainer {
+	display: flex;
+	padding: 20px;
+	font-size: 30px;
+	justify-content: center;
+
+	background-image: url("../assets/home.jpg");
+	width: 2000px;
+	background-repeat: repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.homeContainer h1 {
+	background-color: var(--color-3);
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	color: var(--color-1);
+	height: 120px;
+	align-self: center;
+	box-shadow: 0px 5px 30px 30px var(--color-4);
+}
